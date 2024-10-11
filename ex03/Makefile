@@ -1,11 +1,11 @@
-NAME = FixedPoint
+NAME = bsp
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 CYAN_BOLD=\033[1m\033[36m
 BRANCO_BOLD=\033[1;37m
 BOLD_YELLOW=\033[1m\033[33m
 NC=\033[0m
-SRCS = main.cpp Fixed.cpp
+SRCS = main.cpp Fixed.cpp Point.cpp bsp.cpp
 OBJ_DIR = obj
 OBJS = $(addprefix $(OBJ_DIR)/, $(SRCS:%.cpp=%.o))
 
